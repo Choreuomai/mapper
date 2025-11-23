@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://openorienteering.org/apps/mapper/xml/v2" version="9">
+<notes></notes>
+<georeferencing scale="4000"><projected_crs id="Local"/></georeferencing>
+<colors count="41">
+<color priority="0" name="Upper purple for course overprint" c="0.35" m="0.85" y="0" k="0" opacity="1"><spotcolors knockout="true"><namedcolor>Purple</namedcolor></spotcolors><cmyk method="custom"/><rgb method="cmyk" r="0.65" g="0.15" b="1"/></color>
+<color priority="1" name="White for course overprint" c="0" m="0" y="0" k="0" opacity="1"><spotcolors knockout="true"><component factor="0" spotcolor="4"/></spotcolors><cmyk method="spotcolor"/><rgb method="cmyk" r="1" g="1" b="1"/></color>
+<color priority="2" name="Purple 50% area symbol" c="0.175" m="0.425" y="0" k="0" opacity="1"><spotcolors knockout="true"><component factor="0.5" spotcolor="0"/></spotcolors><cmyk method="spotcolor"/><rgb method="cmyk" r="0.825" g="0.575" b="1"/></color>
+<color priority="3" name="White for railroad" c="0" m="0" y="0" k="0" opacity="1"><spotcolors knockout="true"><component factor="0" spotcolor="4"/></spotcolors><cmyk method="spotcolor"/><rgb method="cmyk" r="1" g="1" b="1"/></color>
+<color priority="4" name="Black 100%" c="0" m="0" y="0" k="1" opacity="1"><spotcolors><namedcolor>Black</namedcolor></spotcolors><cmyk method="custom"/><rgb method="cmyk" r="0" g="0" b="0"/></color>
+<color priority="5" name="Green 100% point symbols" c="0.76" m="0" y="0.91" k="0" opacity="1"><spotcolors><namedcolor>Green</namedcolor></spotcolors><cmyk method="custom"/><rgb method="cmyk" r="0.24" g="1" b="0.09"/></color>
+<color priority="6" name="Lower purple for course overprint" c="0.35" m="0.85" y="0" k="0" opacity="1"><spotcolors><component factor="1" spotcolor="0"/></spotcolors><cmyk method="spotcolor"/><rgb method="cmyk" r="0.65" g="0.15" b="1"/></color>
+<color priority="7" name="Dark green line symbols ISSprOM" c="1" m="0" y="0.8" k="0.3" opacity="1"><spotcolors><namedcolor>Dark green</namedcolor></spotcolors><cmyk method="custom"/><rgb method="cmyk" r="0" g="0.7" b="0.14"/></color>
+<color priority="8" name="Blue 100% point and line symbols" c="1" m="0" y="0" k="0" opacity="1"><spotcolors><component factor="1" spotcolor="16"/></spotcolors><cmyk method="spotcolor"/><rgb method="cmyk" r="0" g="1" b="1"/></color>
+<color priority="9" name="Brown 100%" c="0" m="0.56" y="1" k="0.18" opacity="1"><spotcolors><namedcolor>Brown</namedcolor></spotcolors><cmyk method="custom"/><rgb method="cmyk" r="0.82" g="0.361" b="0"/></color>
+<color priority="10" name="White stripes for area passable at two levels" c="0" m="0" y="0" k="0" opacity="1"><spotcolors knockout="true"><component factor="0" spotcolor="4"/></spotcolors><cmyk method="spotcolor"/><rgb method="cmyk" r="1" g="1" b="1"/></color>
+<color priority="11" name="Brown 50% for road infill" c="0" m="0.28" y="0.5" k="0.09" opacity="1"><spotcolors knockout="true"><component factor="0.5" spotcolor="9"/></spotcolors><cmyk method="spotcolor"/><rgb method="cmyk" r="0.91" g="0.655" b="0.455"/></color>
+<color priority="12" name="Brown 30% for road infill" c="0" m="0.168" y="0.3" k="0.054" opacity="1"><spotcolors><component factor="0.3" spotcolor="9"/></spotcolors><cmyk method="spotcolor"/><rgb method="cmyk" r="0.946" g="0.787" b="0.662"/></color>
+<color priority="13" name="Black 100% for road outline" c="0" m="0" y="0" k="1" opacity="1"><spotcolors><component factor="1" spotcolor="4"/></spotcolors><cmyk method="spotcolor"/><rgb method="cmyk" r="0" g="0" b="0"/></color>
+<color priority="14" name="Black 50% for large buildings and tramway" c="0" m="0" y="0" k="0.5" opacity="1"><spotcolors knockout="true"><component factor="0.5" spotcolor="4"/></spotcolors><cmyk method="spotcolor"/><rgb method="cmyk" r="0.5" g="0.5" b="0.5"/></color>
+<color priority="15" name="Black 20% for canopy" c="0" m="0" y="0" k="0.2" opacity="1"><spotcolors knockout="true"><component factor="0.2" spotcolor="4"/></spotcolors><cmyk method="spotcolor"/><rgb method="cmyk" r="0.8" g="0.8" b="0.8"/></color>
+<color priority="16" name="Blue 100% area symbols" c="1" m="0" y="0" k="0" opacity="1"><spotcolors knockout="true"><namedcolor>Blue</namedcolor></spotcolors><cmyk method="custom"/><rgb method="cmyk" r="0" g="1" b="1"/></color>
+<color priority="17" name="Blue 70% area symbols" c="0.7" m="0" y="0" k="0" opacity="1"><spotcolors knockout="true"><component factor="0.7" spotcolor="16"/></spotcolors><cmyk method="spotcolor"/><rgb method="cmyk" r="0.3" g="1" b="1"/></color>
+<color priority="18" name="Blue 50% area symbols" c="0.5" m="0" y="0" k="0" opacity="1"><spotcolors knockout="true"><component factor="0.5" spotcolor="16"/></spotcolors><cmyk method="spotcolor"/><rgb method="cmyk" r="0.5" g="1" b="1"/></color>
+<color priority="19" name="Blue 30% area symbols" c="0.3" m="0" y="0" k="0" opacity="1"><spotcolors knockout="true"><component factor="0.3" spotcolor="16"/></spotcolors><cmyk method="spotcolor"/><rgb method="cmyk" r="0.7" g="1" b="1"/></color>
+<color priority="20" name="White over green and brown" c="0" m="0" y="0" k="0" opacity="1"><spotcolors knockout="true"><component factor="0" spotcolor="4"/></spotcolors><cmyk method="spotcolor"/><rgb method="cmyk" r="1" g="1" b="1"/></color>
+<color priority="21" name="Brown 50% for paved area" c="0" m="0.28" y="0.5" k="0.09" opacity="1"><spotcolors knockout="true"><component factor="0.5" spotcolor="9"/></spotcolors><cmyk method="spotcolor"/><rgb method="cmyk" r="0.91" g="0.655" b="0.455"/></color>
+<color priority="22" name="Brown 30% for paved area" c="0" m="0.168" y="0.3" k="0.054" opacity="1"><spotcolors><component factor="0.3" spotcolor="9"/></spotcolors><cmyk method="spotcolor"/><rgb method="cmyk" r="0.946" g="0.787" b="0.662"/></color>
+<color priority="23" name="Yellow 100% + Green 50%" c="0.38" m="0.27" y="0.886" k="0" opacity="1"><spotcolors knockout="true"><component factor="1" spotcolor="33"/><component factor="0.5" spotcolor="5"/></spotcolors><cmyk method="spotcolor"/><rgb method="cmyk" r="0.62" g="0.73" b="0.114"/></color>
+<color priority="24" name="Dark green area symbols" c="1" m="0" y="0.8" k="0.3" opacity="1"><spotcolors knockout="true"><component factor="1" spotcolor="7"/></spotcolors><cmyk method="spotcolor"/><rgb method="cmyk" r="0" g="0.7" b="0.14"/></color>
+<color priority="25" name="Green 100% area symbols" c="0.76" m="0" y="0.91" k="0" opacity="1"><spotcolors knockout="true"><namedcolor>Green</namedcolor></spotcolors><cmyk method="custom"/><rgb method="cmyk" r="0.24" g="1" b="0.09"/></color>
+<color priority="26" name="Green 60% area symbols" c="0.456" m="0" y="0.546" k="0" opacity="1"><spotcolors knockout="true"><component factor="0.6" spotcolor="5"/></spotcolors><cmyk method="spotcolor"/><rgb method="cmyk" r="0.544" g="1" b="0.454"/></color>
+<color priority="27" name="Green 30% area symbols" c="0.228" m="0" y="0.273" k="0" opacity="1"><spotcolors knockout="true"><component factor="0.3" spotcolor="5"/></spotcolors><cmyk method="spotcolor"/><rgb method="cmyk" r="0.772" g="1" b="0.727"/></color>
+<color priority="28" name="dev Green100% above Yellow (ISOM 407 &amp; 409)" c="0.76" m="0" y="0.91" k="0" opacity="1"><spotcolors knockout="true"><component factor="1" spotcolor="5"/></spotcolors><cmyk method="spotcolor"/><rgb method="cmyk" r="0.24" g="1" b="0.09"/></color>
+<color priority="29" name="Black 30% area symbols" c="0" m="0" y="0" k="0.3" opacity="1"><spotcolors knockout="true"><component factor="0.3" spotcolor="4"/></spotcolors><cmyk method="spotcolor"/><rgb method="cmyk" r="0.7" g="0.7" b="0.7"/></color>
+<color priority="30" name="Black 35% area symbols" c="0" m="0" y="0" k="0.35" opacity="1"><spotcolors knockout="true"><component factor="0.35" spotcolor="4"/></spotcolors><cmyk method="spotcolor"/><rgb method="cmyk" r="0.65" g="0.65" b="0.65"/></color>
+<color priority="31" name="White over yellow" c="0" m="0" y="0" k="0" opacity="1"><spotcolors knockout="true"><component factor="0" spotcolor="4"/></spotcolors><cmyk method="spotcolor"/><rgb method="cmyk" r="1" g="1" b="1"/></color>
+<color priority="32" name="Black for cultivated land and sandy ground" c="0" m="0" y="0" k="1" opacity="1"><spotcolors><component factor="1" spotcolor="4"/></spotcolors><cmyk method="spotcolor"/><rgb method="cmyk" r="0" g="0" b="0"/></color>
+<color priority="33" name="Yellow 100% area symbols" c="0" m="0.27" y="0.79" k="0" opacity="1"><spotcolors knockout="true"><namedcolor>Yellow</namedcolor></spotcolors><cmyk method="custom"/><rgb method="cmyk" r="1" g="0.73" b="0.21"/></color>
+<color priority="34" name="Yellow 50% area symbols" c="0" m="0.135" y="0.395" k="0" opacity="1"><spotcolors knockout="true"><component factor="0.5" spotcolor="33"/></spotcolors><cmyk method="spotcolor"/><rgb method="cmyk" r="1" g="0.865" b="0.605"/></color>
+<color priority="35" name="Mapper Logo Orange" c="0" m="0.27" y="0.79" k="0" opacity="1"><spotcolors knockout="true"><component factor="1" spotcolor="33"/></spotcolors><cmyk method="spotcolor"/><rgb method="cmyk" r="1" g="0.73" b="0.21"/></color>
+<color priority="36" name="Mapper Logo Blue 50%" c="0.5" m="0" y="0" k="0" opacity="1"><spotcolors knockout="true"><component factor="0.5" spotcolor="16"/></spotcolors><cmyk method="spotcolor"/><rgb method="cmyk" r="0.5" g="1" b="1"/></color>
+<color priority="37" name="Mapper Logo Black" c="0" m="0" y="0" k="1" opacity="1"><spotcolors knockout="true"><component factor="1" spotcolor="4"/></spotcolors><cmyk method="spotcolor"/><rgb method="cmyk" r="0" g="0" b="0"/></color>
+<color priority="38" name="Mapper Logo Black 25%" c="0" m="0" y="0" k="0.25" opacity="1"><spotcolors knockout="true"><component factor="0.25" spotcolor="4"/></spotcolors><cmyk method="spotcolor"/><rgb method="cmyk" r="0.75" g="0.75" b="0.75"/></color>
+<color priority="39" name="Brown" c="0" m="0.56" y="1" k="0.18" opacity="1"><spotcolors><component factor="1" spotcolor="40"/></spotcolors><cmyk method="spotcolor"/><rgb method="cmyk" r="0.82" g="0.361" b="0"/></color>
+<color priority="40" name="Brown" c="0" m="0.56" y="1" k="0.18" opacity="1"><spotcolors><namedcolor>Brown</namedcolor></spotcolors><cmyk method="custom"/><rgb method="cmyk" r="0.82" g="0.361" b="0"/></color>
+</colors>
+<barrier version="6" required="0.6.0">
+<symbols count="1" id="footprints">
+<symbol type="2" id="0" code="705.2" name="Fusstappen"><line_symbol color="-1" line_width="18" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" dashed="true" segment_length="200" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="63" break_length="38" dashes_in_group="1" in_group_break_length="25" mid_symbols_per_spot="1" mid_symbol_distance="0"><dash_symbol><symbol type="1" code="" name="Dash symbol"><point_symbol rotatable="true" inner_radius="50" inner_color="-1" outer_width="0" outer_color="-1" elements="2"><element><symbol type="4" code=""><area_symbol inner_color="39" min_area="0" patterns="0"/></symbol><object type="1"><coords count="19">1331 388;1656 388;2056 438;2406 700;2494 950;2419 1213;2094 1438;1706 1500;1269 1525;769 1375;281 1150;-156 1125;-544 950;-594 600;-394 350;-206 363;331 488;569 525;906 538 16;</coords><pattern rotation="0"><coord x="0" y="0"/></pattern></object></element><element><symbol type="4" code=""><area_symbol inner_color="39" min_area="0" patterns="0"/></symbol><object type="1"><coords count="19">-856 -425;-1269 -437;-1544 -400;-1856 -213;-2281 -175;-2456 -325;-2494 -725;-2181 -950;-1881 -1025;-1594 -1025;-856 -1437;-581 -1525;-219 -1525;194 -1475;494 -1200;494 -887;381 -675;44 -450;-419 -350;</coords><pattern rotation="0"><coord x="0" y="0"/></pattern></object></element></point_symbol></symbol></dash_symbol></line_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAdCAIAAADZ8fBYAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACBUlEQVRIiWP89+8fAw0AEy0MHTUXDljwSf7//+PZte8PzjMwMDCxcrAKy7GJKbHwilBg7v//ny5ue7mq8seTK8jCjKwccjkr+Qx9CZrLiJnOfjy+9HxZyZere7BrYGJWrNjDrWFP2L3///398fDCt7sn/v36/vPptfdHFjH8x5mo///7++v1fcLm/np19/G0qG/3TuNXhwxYhWQJqmG502Dx98tb4g3lNwni0XIibC4TG+dfDFFGFvb/f36iCTLzCEmEdQjZJzMwMhI2l0NW9/e7JxAOl7K5RHgnp6IxEzs3w////35+/fn85o8nVxgY/nMpm7NLqjMwEpveGf98+/TuwBxmbkFWIRkeLUfidRIwd4iVZ3jzMQMDAwPD/7+/3+2bycwryq1qySoshyb77+fX7/fP/v//j5mDh1VEgYVHGBKrhM19sbzkza7JEDarkAyXigWHlCYTjzATK8fXm4c/nd3w7+dXuGI2cRW5rGWciiaEw/dGofzvt48JWg8HjMysMhmLCYcvu7gq8YYyMDD8//v79eZ2wubKpM4T9Sxi4uAh3uh/3z8Rm87+//n59+v7v98+frt3+s22nh+PL+FRLBHeQVb6/f//8+WdH44s/Hxpx99vH5Fl2MSUpWIn8ep7UpQv/v/9/e32sT+f3zBz8jFzC7FLqjFx8EKkhlp+GzUXAgD/Ksv/2INxJgAAAABJRU5ErkJggg=="/></symbol>
+</symbols>
+<parts count="1" current="0">
+<part name="default part"><objects count="1">
+<object type="1" symbol="0"><coords count="8">-37971 7302 32;-33064 6957 32;-28295 7164 32;-24425 7302 32;-20071 7786 32;-16200 8201 32;-12054 8339 32;-7838 8685 32;</coords><pattern rotation="0"><coord x="0" y="0"/></pattern></object>
+</objects></part>
+</parts>
+<templates count="0" first_front_template="0">
+<defaults use_meters_per_pixel="true" meters_per_pixel="0" dpi="0" scale="0"/>
+</templates>
+<view>
+<grid color="#646464" display="0" alignment="0" additional_rotation="0" unit="1" h_spacing="500" v_spacing="500" h_offset="0" v_offset="0" snapping_enabled="true"/>
+<map_view zoom="4" position_x="-10775" position_y="-1855"><map opacity="1" visible="true"/><templates count="0"/></map_view>
+</view>
+</barrier>
+<barrier version="6" required="0.6.0">
+<undo>
+<step type="5"><steps count="1"><step type="1"><affected_objects part="0"><ref object="0"/></affected_objects></step></steps></step>
+<step type="2"><affected_objects part="0"><ref object="0"/></affected_objects><contained_objects count="1"><object type="1" symbol="0"><coords count="3">-16256 -3431 32;10628 836 32;16601 2970 32;</coords><pattern rotation="0"><coord x="0" y="0"/></pattern></object></contained_objects></step>
+<step type="1"><affected_objects part="0"><ref object="0"/></affected_objects></step>
+<step type="1"><affected_objects part="0"><ref object="1"/></affected_objects></step>
+<step type="2"><affected_objects part="0"><ref object="0"/></affected_objects><contained_objects count="1"><object type="1" symbol="0"><coords count="13">-28269 -7828 32;-25392 -8663 32;-22144 -9146 32;-17928 -9215 32;-12537 -9285 32;-8805 -10390 32;-3691 -12049 32;-235 -12049 32;4533 -9768 32;7920 -7142 32;10615 -2166 32;10477 1359 32;10477 1704 32;</coords><pattern rotation="0"><coord x="0" y="0"/></pattern></object></contained_objects></step>
+</undo>
+<redo>
+</redo>
+</barrier>
+</map>
